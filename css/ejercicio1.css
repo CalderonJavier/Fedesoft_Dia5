@@ -1,0 +1,49 @@
+h1 {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+
+    display: inline;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+p.color1 {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#color2 {
+    background-color: purple;
+    color: red;
+
+}
+
+#hola > h1
+{
+    display: inline
+}
+
+#hola > p
+{
+    display: inline
+}
+
+#hola2{
+    display: grid;
+    grid-column: 2;
+}
+
+.orden1{
+    order: 1
+}
+
+.orden2{
+    order: 2
+}
+
+.orden3{
+    order: 3
+}
